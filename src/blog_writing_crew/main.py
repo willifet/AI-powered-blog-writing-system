@@ -18,7 +18,7 @@ def run():
     Run the crew.
     """
     inputs = {
-        'topic': sys.argv[2] if len(sys.argv) > 2 else "How multi-agent systems can help solve a problem in a more efficient way",
+        'topic': sys.argv[2] if len(sys.argv) > 2 else "How does population growth affect the economy?",
         'current_year': str(datetime.now().year)
     }
 
